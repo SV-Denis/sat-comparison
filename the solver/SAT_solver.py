@@ -299,7 +299,7 @@ if __name__ == "__main__":
                     showindex=False
                 )
 
-                with open("../../../Desktop/the solver/benchmark_table.tex", "w") as f:
+                with open("benchmark_table.tex", "w") as f:
                     f.write(latex_table)
                 print("LaTeX table generated: benchmark_table.tex")
                 if TEST == "y" or TEST == "Y":
